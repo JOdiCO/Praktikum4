@@ -5,20 +5,24 @@ Code nya
 ![2019-11-25 07_57_36-praktikum4  J__Mata Kuliah_Bahasa Pemrograman_praktikum4  -  _program1 py - Py](https://user-images.githubusercontent.com/56252129/69504989-ae5c1e00-0f59-11ea-8a64-dc586d736862.png)
 
 penjelasan
-1.)Membuat variable list kosong
+1.) Membuat variable list kosong
+
 nilai = []
 ulang = True
 Variable ulang = True digunakan untuk mengontrol perulangan.
 2.) Lalu kita membuat kondisi perulangan dan statement yang akan dijalankan ketika perulangan terjadi.
 while ulang:
-    nama = input("Masukkan Nama: ")
-    nim = input("Masukkan NIM: ")
-    tugas = int(input("Masukkan Nilai Tugas: "))
-    uts = int(input("Masukkan Nilai UTS: "))
-    uas = int(input("Masukkan Nilai UTS: "))
-    akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
+    
+   nama = input("Masukkan Nama: ")
+   nim = input("Masukkan NIM: ")
+   tugas = int(input("Masukkan Nilai Tugas: "))
+   uts = int(input("Masukkan Nilai UTS: "))
+   uas = int(input("Masukkan Nilai UTS: "))
+   akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
 
-    nilai.append([nama, nim, tugas, uts, uas, int(akhir)])
+    
+   
+nilai.append([nama, nim, tugas, uts, uas, int(akhir)])
 Dari statement diatas, kita akan diminta untuk menginput nama, nim, nilai tugas, nilai uts, dan nilai uas, lalu system akan menjumlahkan nilai-nilai tersebut dan menghasilkan nilai akhir. Setelah menginput berbagai data atau item, inputan item tersebut akan masuk ke dalam list 'nilai'
 3.) Setelah membuat perulangan, kita membuat statement untuk menghentikan atau keluar dari perulangan yang terjadi.
     if (input("Tambah data (y/t)?") == 't'):
